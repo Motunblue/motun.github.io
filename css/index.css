@@ -1,0 +1,84 @@
+body {
+    color: #383E38;
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    line-height: normal;
+    margin-left: 64px;
+    margin-right: 64px;
+    margin-top: 32px;
+    background: #F2F1EA;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-shrink: 0;
+    margin-bottom: 100px;
+}
+.name {
+    display: flex;
+    align-items: center;
+    flex: 1 0 0;
+    margin: 0;
+}
+.name h4 {
+    font-size: 36px;
+    font-weight: 500;
+    margin: 0;
+}
+.profile {
+    display: flex;
+    width: 666px;
+    justify-content: flex-end;
+    align-items: center;
+    flex-shrink: 0;
+}
+.profile-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 0 0;
+}
+.profile-link h6 {
+    font-size: 24px;
+    font-weight: 300;
+    margin: 0;
+}
+.construction {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0px;
+}
+.construction-text {
+    font-family: inter;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 6px;
+}
+.construction-text .element-1 {
+    font-size: 96px;
+    font-weight: 400;
+    margin: 0;
+}
+.construction-text .element-2 {
+    font-size: 38px;
+    font-weight: 300;
+    margin: 0 16px;
+}
+
+.construction-image {
+    width: 800.939px;
+    height: 503.436px;
+    background-image: url("../assest/pana.svg");
+    background-size: cover;
+    background-position: center;
+}
+
+footer {
+    height: 60px;
+}
